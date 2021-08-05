@@ -1,0 +1,12 @@
+quarkus:
+  datasource:
+    db-kind: postgresql
+    jdbc:
+      url: jdbc:postgresql://localhost:5433/videosplaylist
+    username: ROOT
+    password: xz2k600600
+  hibernate-orm:
+    database:
+      generation: update
+    log:
+      sql: true
